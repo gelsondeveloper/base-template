@@ -1,0 +1,22 @@
+// custom colors
+$white-color: rgba(255, 255, 255);
+$custom-color: #8a13fc;
+.bg-default {
+    background-color: $custom-color !important;
+}
+
+.navbar-light{
+    .navbar-brand {
+        color: $white-color;
+        font-size: 2rem;
+    }
+} 
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: $white-color;
+            font-size: 1.2rem;
+        }
+    }
+}
