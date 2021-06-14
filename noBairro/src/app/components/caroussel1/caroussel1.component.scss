@@ -1,0 +1,10 @@
+$height: 650px;
+
+.caroussel1 {
+    .caroussel1__inner {
+        height: auto;
+        img {
+            height: $height;
+        }
+    }
+}
